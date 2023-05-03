@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_200"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addContact"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/title_txt"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_edt"
+        android:layout_marginTop="20dp"
+        android:ems="12"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/name"
+        android:padding="5dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_edt"
+        android:ems="12"
+        android:background="@color/white"
+        android:hint="@string/number"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/add"
+        android:textColor="#AEAAAA"
+        android:layout_gravity="right"
+        android:id="@+id/action_btn"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

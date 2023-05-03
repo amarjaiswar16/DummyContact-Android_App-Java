@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DummyContact</string>
+    <string name="contacts">Contacts image</string>
+    <string name="contact">Contact Numbers</string>
+
+    <string name="person">Person Image</string>
+    <string name="personName">Person Name</string>
+    <string name="contactNo">Contact No</string>
+    <string name="addContact">Add Contact</string>
+    <string name="add">Add</string>
+    <string name="name">Enter Name</string>
+    <string name="number">Enter Number</string>
+</resources>
